@@ -1,0 +1,29 @@
+{
+  "name": "udp-shooter",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Stephen Parker <shurakaisoft@gmail.com>",
+  "script": {
+    "test": "mocha -R spec --recursive ./test",
+    "start": "nodemon index.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/browsenpm.org"
+  },
+  "bugs": {
+    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+  },
+  "dependencies": {
+    "nodemon": "1.2.1",
+    "winston": "0.7.3"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "should": "4.0.4"
+  },
+  "subdomain": "foobar",
+  "analyze": true,
+  "license": "MIT"
+}
